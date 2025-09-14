@@ -358,25 +358,7 @@ class FormBuilder
      * @param  array  $options
      *
      * @return \Illuminate\Support\HtmlString
-     */
-    public function hidden($name, $value = null, $options = [])
-    {
-        return $this->input('hidden', $name, $value, $options);
-    }
-
-    /**
-     * Create a search input field.
-     *
-     * @param  string $name
-     * @param  string $value
-     * @param  array  $options
-     *
-     * @return \Illuminate\Support\HtmlString
-     */
-    public function search($name, $value = null, $options = [])
-    {
-        return $this->input('search', $name, $value, $options);
-    }
+     
 
     /**
      * Create an e-mail input field.
